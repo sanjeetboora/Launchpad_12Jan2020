@@ -16,7 +16,13 @@ int main(int argc, char const *argv[])
 	{
 		for (int j = i; j <= n-1; j++)
 		{	
-			int subarrySum = cumSum[j] - cumSum[i-1];
+			int subarrySum = 0;
+			if(i == 0){
+				subarrySum = cumSum[j];
+			}
+			else{
+				subarrySum = cumSum[j] - cumSum[i-1];
+			}
 			
 			if(subarrySum > maxSum){
 				maxSum = subarrySum;
