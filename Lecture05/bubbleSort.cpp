@@ -5,7 +5,7 @@ void bubbleSort(int arr[10], int n){
 
 	for (int j = 0; j < n-1; ++j)
 	{	
-		bool isSorted = true;
+		bool isSorted = true; //optimization
 		for (int i = 0; i < n-j-1; ++i)
 		{
 			if(arr[i] > arr[i+1]){
@@ -13,7 +13,7 @@ void bubbleSort(int arr[10], int n){
 				isSorted = false;
 			}
 		}
-		if(isSorted == true){
+		if(isSorted == true){//optimization
 			break;
 		}
 		for (int i = 0; i < n; ++i)
