@@ -9,10 +9,17 @@ int countPaths(int start, int end){
 		return 0;
 	}
 	int count =0;
-	for (int dice = 1; dice <= 6; dice++)
-	{
-		count += countPaths(start + dice, end);
-	}
+	// for (int dice = 1; dice <= 6; dice++)
+	// {
+	// 	count += countPaths(start + dice, end);
+	// }
+	count +=countPaths(start + 1, end);
+	count +=countPaths(start + 2, end);
+	count +=countPaths(start + 3, end);
+	count +=countPaths(start + 4, end);
+	count +=countPaths(start + 5, end);
+	count +=countPaths(start + 6, end);
+	
 	return count;
 
 }
