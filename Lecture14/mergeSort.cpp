@@ -48,7 +48,7 @@ void mergeSort(int* arr, int start, int end) {
 
 int main(int argc, char const *argv[])
 {
-	int arr[9] = {9,8,7,6,5,4,3,2,1};
+	int arr[9] = {9, 8, 7, 6, 5, 4, 3, 2, 1};
 	//merge(arr, 0, 4, 8);
 	mergeSort(arr, 0, 8);
 	for (int i = 0; i < 9; ++i)
