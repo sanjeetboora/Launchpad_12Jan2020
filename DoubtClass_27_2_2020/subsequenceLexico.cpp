@@ -2,7 +2,9 @@
 #include <vector>
 using namespace std;
 
+
 vector<string> v; 
+
 void subsequence(string input, string output){
 	if(input.length() == 0){
 		v.push_back(output);
