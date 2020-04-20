@@ -333,7 +333,7 @@ int main(int argc, char const *argv[])
 //HW
 //Find K closest nodes to a given target node
 //Find inorder predecessor for a given target node
-
+//Given two binary search trees root1 and root2. Return a list containing all the integers from both trees sorted in ascending order.
 
 
 
