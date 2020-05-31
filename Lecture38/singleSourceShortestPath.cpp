@@ -2,7 +2,7 @@
 #include <unordered_map>
 using namespace std;
 
-//weighted graph
+//unweighted graph
 
 class graph
 {
